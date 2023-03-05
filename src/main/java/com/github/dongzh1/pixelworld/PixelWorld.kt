@@ -11,12 +11,10 @@ import org.bukkit.plugin.java.JavaPlugin
 
 class PixelWorld : JavaPlugin() {
     companion object PixelWorld {
-        val instance = com.github.dongzh1.pixelworld.PixelWorld.create()
     }
     override fun onEnable() {
         getCommand("pixelworld")?.setExecutor(Commands())
         Bukkit.getConsoleSender().sendMessage("§a[§l像素世界§a]已加载成功")
-        config = this.getConfig()
     }
 
     override fun onDisable() {
