@@ -1,0 +1,14 @@
+name: PixelWorld
+version: '${version}'
+main: com.github.dongzh1.pixelworld.PixelWorld
+api-version: 1.19
+authors: [ adear ]
+description: qq:418888134
+commands:
+  pixelworld:
+    aliases: [pw]
+    permission: pixelworld.commands
+    default: op
+permissions:
+  pixelworld.commands:
+    default: op
